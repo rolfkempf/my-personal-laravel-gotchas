@@ -1,4 +1,4 @@
-# My personal Laravel Gotchas
+# My Personal Laravel Gotchas
 
 ## Telescope
 
