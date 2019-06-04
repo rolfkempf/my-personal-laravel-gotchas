@@ -72,17 +72,17 @@ To use this connection add this to ```/config/telescope.php```
 
 Don´t cache your config in the local environment. This usually happens when devs clear caches with a shotgun method: google "laravel clear caches", visit https://tecadmin.net/clear-cache-laravel-5/ (for example) and execute all artisan commands along with ```composer dump-autoload```
 
- The culprit here is ```php artisan config:cache``` which does as it says... cache the config. Use ```php artisan config:clear``` instead.
+The culprit here is ```php artisan config:cache``` which does as it says... cache the config. Use ```php artisan config:clear``` instead.
 
  ### How to clear caches
 
-remove th following files:
+remove the following files:
 
 - bootstrap/cache/routes.php
 - bootstrap/cache/config.php
 - run ```php artisan cache:clear && php artisan view:clear```
 
-### Run Composer when switching braches
+### Run Composer when switching branches
 
 When working in a team with multiple git-branches it can help to run ```composer install``` to get all new dependencies. 
 
