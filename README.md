@@ -87,3 +87,7 @@ remove the following files:
 When working in a team with multiple git-branches it can help to run ```composer install``` to get all new dependencies. 
 
 ```composer dump-autoload``` regenerates the compiled classlist.
+
+### Check trailing slashes in the requests if routes are not working correctly
+
+The problem occurs when the client calls laravel routes with a trailing slash. Not a laravel problem though... keep an eye on it.
